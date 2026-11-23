@@ -143,6 +143,17 @@ async function main() {
       log(`${j.id}: ERROR ${err.message}${tries >= 3 ? " (gave up)" : ""}`);
     }
     save(state, `${j.id}: ${state[j.id]?.status || "retry"}`);
+    cleanup(jobs, state);
+  }
+  cleanup(jobs, state);
+}
+// once every job that uses a file is finished (done / missed / failed), the file is removed from the release
+function cleanup(jobs, state) {
+  if (!process.env.GITHUB_ACTIONS) return;
+  const assets = new Set(jobs.map((j) => j.asset));
+  for (const a of assets) {
+    if (!jobs.filter((j) => j.asset === a).every((j) => state[j.id])) continue;
+    try { execFileSync("gh", ["release", "delete-asset", "media", a, "-y", "-R", REPO], { stdio: "ignore" }); log(`${a}: removed from the cloud (all its posts are out)`); save(state, `removed ${a}`); } catch {}
   }
 }
 main().catch((err) => { log("ERROR " + err.message); process.exitCode = 1; });
