@@ -128,7 +128,7 @@ async function main() {
     if (!state[j.id] && /story/.test(j.kind) && at < now - STORY_LATE) { state[j.id] = { status: "missed", at: new Date().toISOString() }; log(`${j.id}: missed (more than 2 h late), skipped`); save(state, `missed ${j.id}`); }
   }
   const due = jobs.filter((j) => !state[j.id] && Date.parse(j.at) <= now + AHEAD).sort((a, b) => Date.parse(a.at) - Date.parse(b.at));
-  if (!due.length) return console.log("nothing due");
+  if (!due.length) { cleanup(jobs, state); return console.log("nothing due"); }
   for (const j of due) {
     const wait = Date.parse(j.at) - Date.now();
     if (wait > 0) { console.log(`${j.id}: waiting ${Math.round(wait / 1000)} s`); await sleep(wait); }
@@ -147,13 +147,19 @@ async function main() {
   }
   cleanup(jobs, state);
 }
-// once every job that uses a file is finished (done / missed / failed), the file is removed from the release
+// a file is removed from the release the day after its last post: every job using it is finished
+// (done / missed / failed) and the last one was due more than 24 h ago
+const KEEP = 24 * 3600e3;
 function cleanup(jobs, state) {
   if (!process.env.GITHUB_ACTIONS) return;
   const assets = new Set(jobs.map((j) => j.asset));
   for (const a of assets) {
-    if (!jobs.filter((j) => j.asset === a).every((j) => state[j.id])) continue;
-    try { execFileSync("gh", ["release", "delete-asset", "media", a, "-y", "-R", REPO], { stdio: "ignore" }); log(`${a}: removed from the cloud (all its posts are out)`); save(state, `removed ${a}`); } catch {}
+    const use = jobs.filter((j) => j.asset === a);
+    if (!use.every((j) => state[j.id]) || Date.now() - Math.max(...use.map((j) => Date.parse(j.at))) < KEEP) continue;
+    if (state["_removed_" + a]) continue;
+    try { execFileSync("gh", ["release", "delete-asset", "media", a, "-y", "-R", REPO], { stdio: "ignore" }); } catch {}
+    state["_removed_" + a] = new Date().toISOString();
+    log(`${a}: removed from the cloud (all its posts are out since yesterday)`); save(state, `removed ${a}`);
   }
 }
 main().catch((err) => { log("ERROR " + err.message); process.exitCode = 1; });
