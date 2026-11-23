@@ -1,0 +1,36 @@
+name: publish
+on:
+  schedule:
+    - cron: "7,37 4-20 * * *"   # UTC; every 30 min from 05:07 to 22:37 Paris (CET), so 08:00-20:00 Paris jobs are covered all year
+  workflow_dispatch:
+    inputs:
+      args:
+        description: "worker arguments (empty = publish what is due; 'probe <asset>' = test)"
+        required: false
+        default: ""
+concurrency:
+  group: publish
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: cloudflared (fallback link)
+        run: |
+          curl -sL -o cloudflared https://github.com/cloudflare/cloudflared/releases/download/2025.11.1/cloudflared-linux-amd64
+          chmod +x cloudflared && sudo mv cloudflared /usr/local/bin/
+      - name: publish
+        env:
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+          THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
+        run: |
+          git config user.name "chronorex-bot"
+          git config user.email "chronorex-bot@users.noreply.github.com"
+          node worker.mjs ${{ github.event.inputs.args }}
