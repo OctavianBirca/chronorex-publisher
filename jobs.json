@@ -228,5 +228,149 @@
   "asset": "005-social.mp4",
   "text": "Ragnar Lodbrok, the full episode: a real raid on Paris in 845, then the sagas take over: the serpent, the hairy breeches, Kráka's riddle, the snake pit, and the Great Army his sons really led. Viking Saga ep. 5. AI-generated portraits. Next: Halfdan the Black.",
   "topic": "History"
+ },
+ {
+  "id": "005-story-1-ig",
+  "ep": 5,
+  "key": "story.parts.0.instagram",
+  "kind": "ig-story",
+  "at": "2026-11-26T07:00:00.000Z",
+  "asset": "005-story-1.mp4"
+ },
+ {
+  "id": "005-story-1-fb",
+  "ep": 5,
+  "key": "story.parts.0.facebook",
+  "kind": "fb-story",
+  "at": "2026-11-26T07:01:00.000Z",
+  "asset": "005-story-1.mp4"
+ },
+ {
+  "id": "005-story-2-ig",
+  "ep": 5,
+  "key": "story.parts.1.instagram",
+  "kind": "ig-story",
+  "at": "2026-11-26T08:25:00.000Z",
+  "asset": "005-story-2.mp4"
+ },
+ {
+  "id": "005-story-2-fb",
+  "ep": 5,
+  "key": "story.parts.1.facebook",
+  "kind": "fb-story",
+  "at": "2026-11-26T08:26:00.000Z",
+  "asset": "005-story-2.mp4"
+ },
+ {
+  "id": "005-story-3-ig",
+  "ep": 5,
+  "key": "story.parts.2.instagram",
+  "kind": "ig-story",
+  "at": "2026-11-26T09:50:00.000Z",
+  "asset": "005-story-3.mp4"
+ },
+ {
+  "id": "005-story-3-fb",
+  "ep": 5,
+  "key": "story.parts.2.facebook",
+  "kind": "fb-story",
+  "at": "2026-11-26T09:51:00.000Z",
+  "asset": "005-story-3.mp4"
+ },
+ {
+  "id": "005-story-4-ig",
+  "ep": 5,
+  "key": "story.parts.3.instagram",
+  "kind": "ig-story",
+  "at": "2026-11-26T11:15:00.000Z",
+  "asset": "005-story-4.mp4"
+ },
+ {
+  "id": "005-story-4-fb",
+  "ep": 5,
+  "key": "story.parts.3.facebook",
+  "kind": "fb-story",
+  "at": "2026-11-26T11:16:00.000Z",
+  "asset": "005-story-4.mp4"
+ },
+ {
+  "id": "005-story-5-ig",
+  "ep": 5,
+  "key": "story.parts.4.instagram",
+  "kind": "ig-story",
+  "at": "2026-11-26T12:40:00.000Z",
+  "asset": "005-story-5.mp4"
+ },
+ {
+  "id": "005-story-5-fb",
+  "ep": 5,
+  "key": "story.parts.4.facebook",
+  "kind": "fb-story",
+  "at": "2026-11-26T12:41:00.000Z",
+  "asset": "005-story-5.mp4"
+ },
+ {
+  "id": "005-story-6-ig",
+  "ep": 5,
+  "key": "story.parts.5.instagram",
+  "kind": "ig-story",
+  "at": "2026-11-26T14:05:00.000Z",
+  "asset": "005-story-6.mp4"
+ },
+ {
+  "id": "005-story-6-fb",
+  "ep": 5,
+  "key": "story.parts.5.facebook",
+  "kind": "fb-story",
+  "at": "2026-11-26T14:06:00.000Z",
+  "asset": "005-story-6.mp4"
+ },
+ {
+  "id": "005-story-7-ig",
+  "ep": 5,
+  "key": "story.parts.6.instagram",
+  "kind": "ig-story",
+  "at": "2026-11-26T15:30:00.000Z",
+  "asset": "005-story-7.mp4"
+ },
+ {
+  "id": "005-story-7-fb",
+  "ep": 5,
+  "key": "story.parts.6.facebook",
+  "kind": "fb-story",
+  "at": "2026-11-26T15:31:00.000Z",
+  "asset": "005-story-7.mp4"
+ },
+ {
+  "id": "005-story-8-ig",
+  "ep": 5,
+  "key": "story.parts.7.instagram",
+  "kind": "ig-story",
+  "at": "2026-11-26T16:55:00.000Z",
+  "asset": "005-story-8.mp4"
+ },
+ {
+  "id": "005-story-8-fb",
+  "ep": 5,
+  "key": "story.parts.7.facebook",
+  "kind": "fb-story",
+  "at": "2026-11-26T16:56:00.000Z",
+  "asset": "005-story-8.mp4"
+ },
+ {
+  "id": "005-story-9-ig",
+  "ep": 5,
+  "key": "story.parts.8.instagram",
+  "kind": "ig-story",
+  "at": "2026-11-26T18:20:00.000Z",
+  "asset": "005-story-9.mp4"
+ },
+ {
+  "id": "005-story-9-fb",
+  "ep": 5,
+  "key": "story.parts.8.facebook",
+  "kind": "fb-story",
+  "at": "2026-11-26T18:21:00.000Z",
+  "asset": "005-story-9.mp4"
  }
 ]
