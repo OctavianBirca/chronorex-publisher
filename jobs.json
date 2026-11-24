@@ -113,5 +113,101 @@
   "asset": "004-social.mp4",
   "text": "Horik I survived his father's murder, drove out Harald Klak and ruled the Danes for almost thirty years. He fought the Saxons on the Elbe, let Ansgar build a church at Hedeby, and died in a war inside his own family. Viking Saga ep. 4. AI-generated portraits. Next: Ragnar Lodbrok.",
   "topic": "History"
+ },
+ {
+  "id": "004-story-1-ig",
+  "ep": 4,
+  "key": "story.parts.0.instagram",
+  "kind": "ig-story",
+  "at": "2026-11-25T07:00:00.000Z",
+  "asset": "004-story-1.mp4"
+ },
+ {
+  "id": "004-story-1-fb",
+  "ep": 4,
+  "key": "story.parts.0.facebook",
+  "kind": "fb-story",
+  "at": "2026-11-25T07:01:00.000Z",
+  "asset": "004-story-1.mp4"
+ },
+ {
+  "id": "004-story-2-ig",
+  "ep": 4,
+  "key": "story.parts.1.instagram",
+  "kind": "ig-story",
+  "at": "2026-11-25T09:20:00.000Z",
+  "asset": "004-story-2.mp4"
+ },
+ {
+  "id": "004-story-2-fb",
+  "ep": 4,
+  "key": "story.parts.1.facebook",
+  "kind": "fb-story",
+  "at": "2026-11-25T09:21:00.000Z",
+  "asset": "004-story-2.mp4"
+ },
+ {
+  "id": "004-story-3-ig",
+  "ep": 4,
+  "key": "story.parts.2.instagram",
+  "kind": "ig-story",
+  "at": "2026-11-25T11:40:00.000Z",
+  "asset": "004-story-3.mp4"
+ },
+ {
+  "id": "004-story-3-fb",
+  "ep": 4,
+  "key": "story.parts.2.facebook",
+  "kind": "fb-story",
+  "at": "2026-11-25T11:41:00.000Z",
+  "asset": "004-story-3.mp4"
+ },
+ {
+  "id": "004-story-4-ig",
+  "ep": 4,
+  "key": "story.parts.3.instagram",
+  "kind": "ig-story",
+  "at": "2026-11-25T14:00:00.000Z",
+  "asset": "004-story-4.mp4"
+ },
+ {
+  "id": "004-story-4-fb",
+  "ep": 4,
+  "key": "story.parts.3.facebook",
+  "kind": "fb-story",
+  "at": "2026-11-25T14:01:00.000Z",
+  "asset": "004-story-4.mp4"
+ },
+ {
+  "id": "004-story-5-ig",
+  "ep": 4,
+  "key": "story.parts.4.instagram",
+  "kind": "ig-story",
+  "at": "2026-11-25T16:20:00.000Z",
+  "asset": "004-story-5.mp4"
+ },
+ {
+  "id": "004-story-5-fb",
+  "ep": 4,
+  "key": "story.parts.4.facebook",
+  "kind": "fb-story",
+  "at": "2026-11-25T16:21:00.000Z",
+  "asset": "004-story-5.mp4"
+ },
+ {
+  "id": "004-story-6-ig",
+  "ep": 4,
+  "key": "story.parts.5.instagram",
+  "kind": "ig-story",
+  "at": "2026-11-25T18:40:00.000Z",
+  "asset": "004-story-6.mp4"
+ },
+ {
+  "id": "004-story-6-fb",
+  "ep": 4,
+  "key": "story.parts.5.facebook",
+  "kind": "fb-story",
+  "at": "2026-11-25T18:41:00.000Z",
+  "asset": "004-story-6.mp4"
  }
 ]
