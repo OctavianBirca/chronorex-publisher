@@ -209,5 +209,24 @@
   "kind": "fb-story",
   "at": "2026-11-25T18:41:00.000Z",
   "asset": "004-story-6.mp4"
+ },
+ {
+  "id": "005-reel-ig",
+  "ep": 5,
+  "key": "instagram",
+  "kind": "ig-reel",
+  "at": "2026-11-25T19:00:00.000Z",
+  "asset": "005-reel.mp4",
+  "caption": "Ragnar Lodbrok, the full episode: a real raid on Paris in 845, then the sagas take over: the serpent, the hairy breeches, Kráka's riddle, the snake pit, and the Great Army his sons really led. Viking Saga ep. 5. AI-generated portraits. Next: Halfdan the Black.\n#vikings #history #vikingsaga #ragnarlodbrok #medievalhistory"
+ },
+ {
+  "id": "005-threads",
+  "ep": 5,
+  "key": "threads",
+  "kind": "threads",
+  "at": "2026-11-25T19:01:00.000Z",
+  "asset": "005-social.mp4",
+  "text": "Ragnar Lodbrok, the full episode: a real raid on Paris in 845, then the sagas take over: the serpent, the hairy breeches, Kráka's riddle, the snake pit, and the Great Army his sons really led. Viking Saga ep. 5. AI-generated portraits. Next: Halfdan the Black.",
+  "topic": "History"
  }
 ]
