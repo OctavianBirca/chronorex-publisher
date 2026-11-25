@@ -14,3 +14,4 @@
 24/11/2026 20:01:58 004-threads: published https://www.threads.com/@chronorexhistory/post/DgIqIiHs88T
 25/11/2026 08:00:38 004-story-1-ig: published https://www.instagram.com/stories/chronorexhistory/4038024092501528652
 25/11/2026 08:01:10 004-story-1-fb: published 1700049848520284
+25/11/2026 08:01:14 003-story-1.mp4: removed from the cloud (all its posts are out since yesterday)
