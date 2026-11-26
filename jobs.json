@@ -372,5 +372,24 @@
   "kind": "fb-story",
   "at": "2026-11-26T18:21:00.000Z",
   "asset": "005-story-9.mp4"
+ },
+ {
+  "id": "006-reel-ig",
+  "ep": 6,
+  "key": "instagram",
+  "kind": "ig-reel",
+  "at": "2026-11-26T19:00:00.000Z",
+  "asset": "006-reel.mp4",
+  "caption": "A king who never dreamed, drowned beneath the ice and was buried in four places at once. Halfdan the Black, father of the king who united Norway. Viking Saga ep. 6. AI-generated portraits. Next: Turgeis.\n#vikings #history #vikingsaga #medievalhistory #norway"
+ },
+ {
+  "id": "006-threads",
+  "ep": 6,
+  "key": "threads",
+  "kind": "threads",
+  "at": "2026-11-26T19:01:00.000Z",
+  "asset": "006-social.mp4",
+  "text": "A king who never dreamed, drowned beneath the ice and was buried in four places at once. Halfdan the Black, father of the king who united Norway. Viking Saga ep. 6. AI-generated portraits. Next: Turgeis.",
+  "topic": "History"
  }
 ]
