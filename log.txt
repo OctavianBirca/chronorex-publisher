@@ -92,3 +92,4 @@
 27/11/2026 19:16:08 006-story-10-fb: published 1135957109180081
 27/11/2026 20:01:16 007-reel-fb: published https://www.facebook.com/reel/1667841814784163/
 27/11/2026 20:01:18 005-story-9.mp4: removed from the cloud (all its posts are out since yesterday)
+27/11/2026 20:01:20 006-reel.mp4: removed from the cloud (all its posts are out since yesterday)
