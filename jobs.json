@@ -551,5 +551,33 @@
   "kind": "fb-story",
   "at": "2026-11-27T18:16:00.000Z",
   "asset": "006-story-10.mp4"
+ },
+ {
+  "id": "007-reel-fb",
+  "ep": 7,
+  "key": "facebook",
+  "kind": "fb-reel",
+  "at": "2026-11-27T19:00:00.000Z",
+  "asset": "007-reel.mp4",
+  "caption": "He took Ireland's holiest church, his wife chanted pagan oracles on its altar, and the king he wronged drowned him in a lake. Turgeis, the Viking Ireland never forgot. Viking Saga ep. 7. AI-generated portraits. Next: Ketill Flatnose.\n#vikings #history #vikingsaga #medievalhistory #ireland"
+ },
+ {
+  "id": "007-reel-ig",
+  "ep": 7,
+  "key": "instagram",
+  "kind": "ig-reel",
+  "at": "2026-11-27T19:00:00.000Z",
+  "asset": "007-reel.mp4",
+  "caption": "He took Ireland's holiest church, his wife chanted pagan oracles on its altar, and the king he wronged drowned him in a lake. Turgeis, the Viking Ireland never forgot. Viking Saga ep. 7. AI-generated portraits. Next: Ketill Flatnose.\n#vikings #history #vikingsaga #medievalhistory #ireland"
+ },
+ {
+  "id": "007-threads",
+  "ep": 7,
+  "key": "threads",
+  "kind": "threads",
+  "at": "2026-11-27T19:01:00.000Z",
+  "asset": "007-social.mp4",
+  "text": "He took Ireland's holiest church, his wife chanted pagan oracles on its altar, and the king he wronged drowned him in a lake. Turgeis, the Viking Ireland never forgot. Viking Saga ep. 7. AI-generated portraits. Next: Ketill Flatnose.",
+  "topic": "History"
  }
 ]
