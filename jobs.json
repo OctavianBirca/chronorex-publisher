@@ -579,5 +579,165 @@
   "asset": "007-social.mp4",
   "text": "He took Ireland's holiest church, his wife chanted pagan oracles on its altar, and the king he wronged drowned him in a lake. Turgeis, the Viking Ireland never forgot. Viking Saga ep. 7. AI-generated portraits. Next: Ketill Flatnose.",
   "topic": "History"
+ },
+ {
+  "id": "007-story-1-ig",
+  "ep": 7,
+  "key": "story.parts.0.instagram",
+  "kind": "ig-story",
+  "at": "2026-11-28T07:00:00.000Z",
+  "asset": "007-story-1.mp4"
+ },
+ {
+  "id": "007-story-1-fb",
+  "ep": 7,
+  "key": "story.parts.0.facebook",
+  "kind": "fb-story",
+  "at": "2026-11-28T07:01:00.000Z",
+  "asset": "007-story-1.mp4"
+ },
+ {
+  "id": "007-story-2-ig",
+  "ep": 7,
+  "key": "story.parts.1.instagram",
+  "kind": "ig-story",
+  "at": "2026-11-28T08:15:00.000Z",
+  "asset": "007-story-2.mp4"
+ },
+ {
+  "id": "007-story-2-fb",
+  "ep": 7,
+  "key": "story.parts.1.facebook",
+  "kind": "fb-story",
+  "at": "2026-11-28T08:16:00.000Z",
+  "asset": "007-story-2.mp4"
+ },
+ {
+  "id": "007-story-3-ig",
+  "ep": 7,
+  "key": "story.parts.2.instagram",
+  "kind": "ig-story",
+  "at": "2026-11-28T09:30:00.000Z",
+  "asset": "007-story-3.mp4"
+ },
+ {
+  "id": "007-story-3-fb",
+  "ep": 7,
+  "key": "story.parts.2.facebook",
+  "kind": "fb-story",
+  "at": "2026-11-28T09:31:00.000Z",
+  "asset": "007-story-3.mp4"
+ },
+ {
+  "id": "007-story-4-ig",
+  "ep": 7,
+  "key": "story.parts.3.instagram",
+  "kind": "ig-story",
+  "at": "2026-11-28T10:45:00.000Z",
+  "asset": "007-story-4.mp4"
+ },
+ {
+  "id": "007-story-4-fb",
+  "ep": 7,
+  "key": "story.parts.3.facebook",
+  "kind": "fb-story",
+  "at": "2026-11-28T10:46:00.000Z",
+  "asset": "007-story-4.mp4"
+ },
+ {
+  "id": "007-story-5-ig",
+  "ep": 7,
+  "key": "story.parts.4.instagram",
+  "kind": "ig-story",
+  "at": "2026-11-28T12:00:00.000Z",
+  "asset": "007-story-5.mp4"
+ },
+ {
+  "id": "007-story-5-fb",
+  "ep": 7,
+  "key": "story.parts.4.facebook",
+  "kind": "fb-story",
+  "at": "2026-11-28T12:01:00.000Z",
+  "asset": "007-story-5.mp4"
+ },
+ {
+  "id": "007-story-6-ig",
+  "ep": 7,
+  "key": "story.parts.5.instagram",
+  "kind": "ig-story",
+  "at": "2026-11-28T13:15:00.000Z",
+  "asset": "007-story-6.mp4"
+ },
+ {
+  "id": "007-story-6-fb",
+  "ep": 7,
+  "key": "story.parts.5.facebook",
+  "kind": "fb-story",
+  "at": "2026-11-28T13:16:00.000Z",
+  "asset": "007-story-6.mp4"
+ },
+ {
+  "id": "007-story-7-ig",
+  "ep": 7,
+  "key": "story.parts.6.instagram",
+  "kind": "ig-story",
+  "at": "2026-11-28T14:30:00.000Z",
+  "asset": "007-story-7.mp4"
+ },
+ {
+  "id": "007-story-7-fb",
+  "ep": 7,
+  "key": "story.parts.6.facebook",
+  "kind": "fb-story",
+  "at": "2026-11-28T14:31:00.000Z",
+  "asset": "007-story-7.mp4"
+ },
+ {
+  "id": "007-story-8-ig",
+  "ep": 7,
+  "key": "story.parts.7.instagram",
+  "kind": "ig-story",
+  "at": "2026-11-28T15:45:00.000Z",
+  "asset": "007-story-8.mp4"
+ },
+ {
+  "id": "007-story-8-fb",
+  "ep": 7,
+  "key": "story.parts.7.facebook",
+  "kind": "fb-story",
+  "at": "2026-11-28T15:46:00.000Z",
+  "asset": "007-story-8.mp4"
+ },
+ {
+  "id": "007-story-9-ig",
+  "ep": 7,
+  "key": "story.parts.8.instagram",
+  "kind": "ig-story",
+  "at": "2026-11-28T17:00:00.000Z",
+  "asset": "007-story-9.mp4"
+ },
+ {
+  "id": "007-story-9-fb",
+  "ep": 7,
+  "key": "story.parts.8.facebook",
+  "kind": "fb-story",
+  "at": "2026-11-28T17:01:00.000Z",
+  "asset": "007-story-9.mp4"
+ },
+ {
+  "id": "007-story-10-ig",
+  "ep": 7,
+  "key": "story.parts.9.instagram",
+  "kind": "ig-story",
+  "at": "2026-11-28T18:15:00.000Z",
+  "asset": "007-story-10.mp4"
+ },
+ {
+  "id": "007-story-10-fb",
+  "ep": 7,
+  "key": "story.parts.9.facebook",
+  "kind": "fb-story",
+  "at": "2026-11-28T18:16:00.000Z",
+  "asset": "007-story-10.mp4"
  }
 ]
