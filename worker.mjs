@@ -94,6 +94,23 @@ const RUN = {
     const f = await graph("POST", `/${page}/video_stories`, T(), { upload_phase: "finish", video_id: st.video_id });
     return { id: f.post_id || st.video_id };
   },
+  // Facebook reel published live at its time (2026-11-27: reels pre-scheduled through the API got 2-8 plays, live ones 230-325)
+  async "fb-reel"(j) {
+    const { page } = await metaIds(); const buf = readFileSync(await download(j.asset));
+    const st = await graph("POST", `/${page}/video_reels`, T(), { upload_phase: "start" });
+    const r = await fetch(st.upload_url, { method: "POST", headers: { authorization: "OAuth " + T(), offset: "0", file_size: String(buf.length) }, body: buf });
+    const u = await r.json().catch(() => ({})); if (!r.ok || u.success === false || u.error) throw new Error("upload: " + JSON.stringify(u));
+    await graph("POST", `/${page}/video_reels`, T(), { upload_phase: "finish", video_id: st.video_id, video_state: "PUBLISHED", description: j.caption });
+    let url = "https://www.facebook.com/reel/" + st.video_id;
+    for (let i = 0; i < 20; i++) { // wait until Facebook reports it published
+      const v = await graph("GET", "/" + st.video_id, T(), { fields: "status,permalink_url" });
+      const ph = v.status?.publishing_phase?.status;
+      if (v.permalink_url) url = "https://www.facebook.com" + v.permalink_url;
+      if (ph === "complete") break; if (v.status?.video_status === "error") throw new Error("reel: " + JSON.stringify(v.status));
+      await sleep(15000);
+    }
+    return { id: st.video_id, url };
+  },
   async threads(j) {
     const t = process.env.THREADS_TOKEN;
     const p = await viaUrl(j, async (video_url) => {
