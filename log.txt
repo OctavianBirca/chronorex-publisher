@@ -75,3 +75,4 @@
 27/11/2026 11:46:07 006-story-4-fb: published 1545106800782291
 27/11/2026 13:36:00 006-story-5-ig: published https://www.instagram.com/stories/chronorexhistory/4039642416817398610 (36 min late)
 27/11/2026 13:36:03 005-story-4.mp4: removed from the cloud (all its posts are out since yesterday)
+27/11/2026 13:36:12 006-story-5-fb: published 29559615820363352 (35 min late)
